@@ -1,8 +1,8 @@
 <form>
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input class="form-control w-50 m-auto text-center mt-1" type="text" id="fname" name="fname" value="John"><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="button" value="Submit" (click)="changeParams()">
+  <input class="form-control w-50 m-auto text-center mt-1" type="text" id="lname" name="lname" value="Doe"><br><br>
+  <button type="button" class="btn btn-outline-dark" (click)="changeParams()">Greet me!</button>
 </form>
-<h1>Hi {{surname}}, {{name}}</h1>
+<h1>Hi! {{surname}}, {{name}}.</h1>
