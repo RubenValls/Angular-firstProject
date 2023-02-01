@@ -1,0 +1,12 @@
+h1{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+  padding: 2rem;
+}
+
+input:hover{
+  cursor: pointer;
+}
